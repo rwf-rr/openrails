@@ -3577,6 +3577,10 @@ namespace Orts.Simulation.RollingStocks
 
             return new LatLonDirection(latLon, directionDeg); ;
         }
+
+        public int GetWagonNumAxles() { return WagonNumAxles; }
+
+        public float GetGravitationalAccelerationMpS2() { return GravitationalAccelerationMpS2; }
     }
 
     public class WheelAxle : IComparer<WheelAxle>
